@@ -3,7 +3,8 @@
   "module": "./src/index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun run ./src/index.ts"
+    "dev": "bun run ./src/index.ts",
+    "json:serve":"json-server ./src/proxy.json"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
+    "json-server": "^1.0.0-beta.3",
     "undici": "^7.3.0"
   }
 }

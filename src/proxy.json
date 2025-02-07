@@ -2,19 +2,23 @@
   "proxy": [
     {
       "path": "/users",
-      "endpoint": "https://jsonplaceholder.typicode.com/users"
+      "endpoint": "https://jsonplaceholder.typicode.com/users",
+      "id": "e6f0"
     },
     {
       "path": "/posts",
-      "endpoint": "https://jsonplaceholder.typicode.com/posts"
+      "endpoint": "https://jsonplaceholder.typicode.com/posts",
+      "id": "ed67"
     },
     {
       "path": "/comments",
-      "endpoint": "https://jsonplaceholder.typicode.com/comments"
+      "endpoint": "https://jsonplaceholder.typicode.com/comments",
+      "id": "bcff"
     },
     {
       "path": "/ip",
-      "endpoint": "https://ipapi.co/json"
+      "endpoint": "https://ipapi.co/json",
+      "id": "0e30"
     }
   ]
 }
