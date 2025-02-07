@@ -1,0 +1,20 @@
+{
+  "proxy": [
+    {
+      "path": "/users",
+      "endpoint": "https://jsonplaceholder.typicode.com/users"
+    },
+    {
+      "path": "/posts",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts"
+    },
+    {
+      "path": "/comments",
+      "endpoint": "https://jsonplaceholder.typicode.com/comments"
+    },
+    {
+      "path": "/ip",
+      "endpoint": "https://ipapi.co/json"
+    }
+  ]
+}
