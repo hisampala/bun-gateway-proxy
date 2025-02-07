@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun run ./src/index.ts",
-    "json:serve":"json-server ./src/proxy.json"
+    "json:serve":"json-server ./src/proxy.json --port=3000"
   },
   "devDependencies": {
     "@types/bun": "latest"

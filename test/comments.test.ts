@@ -1,6 +1,10 @@
-import { describe, test,expect } from "bun:test";
-import server from "../src/index";
-import axios from "axios";
+import axios from 'axios';
+import { describe, expect, test } from 'bun:test';
+
+import servers from '../src/servers';
+
+const port = 10001
+const server = Bun.serve({port,fetch:servers})
 describe("Test Request Gateway Comments ",  () => {
     test("It should request endpoint for get information comments data  success",async ()=>{
         const url =  `http://localhost:${server.port}/comments`
