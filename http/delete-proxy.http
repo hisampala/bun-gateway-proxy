@@ -1,0 +1,7 @@
+@base=http://localhost:3000/proxy
+@id=84fb09b7-71d2-4de6-a22a-8110eaaef34e
+
+### Delete a item
+DELETE  {{base}}/{{id}}
+Content-Type: application/json
+

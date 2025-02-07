@@ -1,0 +1,14 @@
+@base=http://localhost:3000/proxy
+@path=<path your need add gateway>
+@endpoint=<endpoint your need add gateway>
+### Create a new item
+ 
+POST {{base}}/
+Content-Type: application/json
+ 
+{
+  "id": "{{$guid}}",
+  "path":"{{path}}",
+  "endpoint":"{{endpoint}}"
+}
+ 
